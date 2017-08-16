@@ -33,9 +33,18 @@ namespace CSharpFundamentalsUnderstandingScope
             //Console.WriteLine(i); 
 
             Console.WriteLine("Outside of the for: " + j);
-            Console.WriteLine("k: " + k);
+            //Console.WriteLine("k: " + k);
 
+
+            //the helperMethod works because k is defined in a sibling code block of the helperMethod
+            helperMethod();
             Console.ReadLine();
         }
+
+        static void helperMethod()
+        {
+            Console.WriteLine("k from the helperMethod: " + k);
+        }
+
     }
 }
