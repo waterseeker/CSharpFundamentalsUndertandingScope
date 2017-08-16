@@ -14,6 +14,8 @@ namespace CSharpFundamentalsUnderstandingScope
             {
                 Console.WriteLine(i);
             }
+            //you can't access i because it does not exist outside of its code block
+            //Console.WriteLine(i); 
             Console.ReadLine();
         }
     }
