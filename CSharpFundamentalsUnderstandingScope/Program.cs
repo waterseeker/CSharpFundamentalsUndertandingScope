@@ -10,6 +10,7 @@ namespace CSharpFundamentalsUnderstandingScope
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
